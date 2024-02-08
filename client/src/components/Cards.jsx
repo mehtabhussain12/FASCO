@@ -82,7 +82,7 @@ function Cards() {
           </div>
         </div>
       </div>
-     <div className='flex justify-center my-12'>
+     <div className='flex justify-center my-8'>
      <button className="bg-black   text-white px-12 py-2 rounded-md shadow-md ml-20 md:ml-0 ">
              View More
             </button>

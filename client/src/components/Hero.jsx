@@ -16,7 +16,7 @@ function Hero() {
         <img src={img2} alt="" />
         <div className='flex flex-col justify-center items-center'>
         <h1 className='md:text-8xl text-6xl mt-4 text-[#484848]'>ULTIMATE</h1>
-     <h1 className="text-[150px]">SALE</h1>
+     <h1 className=" md:text[125px] text-[150px]">SALE</h1>
         <p className='text-center m-2 text-xl'>NEW COLLECTION</p>
         <button className='bg-black text-white px-4 py-2 rounded-md shadow-md hover:bg-gray-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 '>SHOP NOW</button>
         </div>
