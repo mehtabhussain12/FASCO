@@ -11,8 +11,8 @@ import Banner from './Banner'
 function Cards() {
   return (
  <>
-  <div className=''>
-      <div className='flex flex-col md:flex md:flex-row md:ml-24 ml-8 justify-evenly'>
+  <div className='m-2'>
+      <div className='flex flex-col md:flex md:flex-row md:ml-24  justify-evenly'>
         {/* card 1 */}
         <div className="max-w-xs rounded overflow-hidden shadow-lg  mt-4">
           <img src={c1} alt="Shiny Dress" className="w-full" />
@@ -47,7 +47,7 @@ function Cards() {
           </div>
         </div>
       </div>
-      <div className='flex flex-col md:flex md:flex-row md:ml-24 ml-8 justify-evenly'>
+      <div className='flex flex-col md:flex md:flex-row md:ml-24 m-2 md:justify-evenly'>
         {/* card4 */}
         <div className="max-w-xs rounded overflow-hidden shadow-lg  mt-4">
           <img src={c4} alt="Shiny Dress" className="w-full" />
@@ -83,7 +83,7 @@ function Cards() {
         </div>
       </div>
      <div className='flex justify-center my-8'>
-     <button className="bg-black   text-white px-12 py-2 rounded-md shadow-md ml-20 md:ml-0 ">
+     <button className="bg-black flex items-center  text-white px-12 py-2 rounded-md shadow-md  md:ml-0 ">
              View More
             </button>
      </div>

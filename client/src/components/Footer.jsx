@@ -15,7 +15,7 @@ function Footer() {
     </h1>
     <p className='text-center px-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </p>
     <input className='border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-transparent w-full max-w-md mt-4' type="email" placeholder='michael@ymail.com' />
-    <div className='flex justify-center mt-4'>
+    <div className='flex justify-center  items-center mt-4'>
       <button className="bg-black text-white px-8 py-2 rounded-md shadow-md">
         Subscribe Now
       </button>

@@ -12,7 +12,7 @@ import Footer from "./Footer";
 function Banner() {
   return (
     <>
-      <div className="mt-24">
+      <div className="mt-24 ">
         <div className="m-4">
           <h1 className="text-[#484848] text-center text-4xl font-semibold mb-4">
             Follow Us On Instagram
@@ -24,8 +24,8 @@ function Banner() {
           </p>
         </div>
         <div className="mt-24 ">
-          <div className="md:flex md:flex-row flex flex-col ml-8">
-            <div className="w-[320px] h-[308px] mt-6 relative">
+          <div className="md:flex md:flex-row flex flex-col m-2">
+            <div className="md:w-[320px] md:h-[308px] mt-6 relative">
               <img src={b1} alt="" className="w-full h-full" />
               <a
                 href="#"
@@ -38,7 +38,7 @@ function Banner() {
                 />
               </a>
             </div>
-            <div className="w-[320px] h-[308px] relative">
+            <div className="md:w-[320px] md:h-[308px] relative">
               <img src={b2} alt="" className="w-full h-full" />
               <a
                 href="#"
@@ -51,7 +51,7 @@ function Banner() {
                 />
               </a>
             </div>
-            <div className="w-[320px] h-[308px] mt-6 relative">
+            <div className="md:w-[320px] md:h-[308px] mt-6 relative">
               <img src={b3} alt="" className="w-full h-full" />
               <a
                 href="#"
@@ -64,7 +64,7 @@ function Banner() {
                 />
               </a>
             </div>
-            <div className="w-[320px] h-[308px] relative">
+            <div className="md:w-[320px] md:h-[308px] relative">
               <img src={b4} alt="" className="w-full h-full" />
               <a
                 href="#"
@@ -77,7 +77,7 @@ function Banner() {
                 />
               </a>
             </div>
-            <div className="w-[320px] h-[308px] mt-6 relative">
+            <div className="md:w-[320px] md:h-[308px] mt-6 relative">
               <img src={b5} alt="" className="w-full h-full" />
               <a
                 href="#"
@@ -90,7 +90,7 @@ function Banner() {
                 />
               </a>
             </div>
-            <div className="w-[320px] h-[308px] relative">
+            <div className="md:w-[320px] md:h-[308px] relative">
               <img src={b6} alt="" className="w-full h-full" />
               <a
                 href="#"
@@ -103,7 +103,7 @@ function Banner() {
                 />
               </a>
             </div>
-            <div className="w-[320px] h-[308px] mt-6 relative">
+            <div className="md:w-[320px] md:h-[308px] mt-6 relative">
               <img src={b7} alt="" className="w-full h-full" />
               <a
                 href="#"
