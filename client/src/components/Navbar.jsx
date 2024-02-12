@@ -16,12 +16,12 @@ function Navbar() {
           <h1 className="text-5xl font-semibold text-gray-800 text-center">FASCO</h1>
         </div>
         <div className="flex items-center mt-4 cursor-pointer ">
-          <div className={`md:hidden mr-8 text-2xl ${isOpen ? 'hidden' : 'block'}`}>
+          <div className={`md:hidden mr-4 text-2xl ${isOpen ? 'hidden' : 'block'}`}>
             <button className="p-2 rounded-md text-black" onClick={toggleNavbar}><FaBars /></button>
           </div>
           <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
             <button className=" ml-4 text-3xl text-black mr-4" onClick={toggleNavbar}><FaTimes className="text-black" /></button>
-            <div className={`md:hidden fixed top-20 left-0 h-full w-full rounded-md bg-black opacity-50  z-50 ${isOpen ? 'block' : 'hidden'}`}>
+            <div className={`md:hidden fixed top-20 left-0 h-full w-full rounded-md bg-black opacity-80  z-50 ${isOpen ? 'block' : 'hidden'}`}>
  
     <ul className="flex flex-col items-center mt-16">
       <li className="my-4"><a href="#" className="text-white">Home</a></li>
